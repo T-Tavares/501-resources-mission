@@ -16,9 +16,7 @@
   Ex:.
   / ---------------------------------------------------------------- //
   
-  const topicOfResorces = [ {...}, {...}, {...}]
-
-
+  const topicOfResorces = [ {...}, {...}, {...}, ...]
 
   const topicOfResorces = [
     {
@@ -43,20 +41,33 @@
   Ex:. Things that have helped you learning a specific topics or tool. Or something that it's
   important for our career development or as a programmer on this wild world.
   
-  I just ask that so  we don't spam the Resources Repo with random stuff. 
+  I just ask for that so we don't spam the Resources Repo with random stuff. 
 
-  For practicity you can copy this for each entry you want to add to the Repo and just fill 
-  the gaps:
+  To avoid repetition, I set up this project with a snippets file for the entries and sections objects. 
+  You'll find it on the .vscode folder.
 
-  / ---------------------------------------------------------------- //
+  It should work as any other snippet we have been using.
+  
+  type: ne -> press Tab / Enter
+      This will give you an entry snippet.
+  type ns -> press Tab / Enter 
+      This will give you a section snippet.
 
-  {
-    title: '',
-    link: '',
-    description: '',
-  }
+  You can navigate to the next blank spaces with tab.
+
+  / --------------------------- PATTERN ---------------------------- //
+
+  const topicOfResorces = [
+    {
+      title: '',
+      link: '',
+      description: '',
+    },
+  ]
 
 */
+
+// -------------------- NOW TO THE FUN PART!!! -------------------- //
 
 // ---------------------- LEARNING CHANNELS ----------------------- //
 

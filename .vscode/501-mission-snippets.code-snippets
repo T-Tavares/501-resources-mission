@@ -1,0 +1,32 @@
+{
+	/*  
+		SNIPPETS TO ADD NEW ENTRY (ne) AND NEW SECTION (ns)
+		Feel free to explore and add new snippets.
+	*/ 
+
+	"New Entry Object": {
+		"prefix": "ne",
+		"body": [
+			"{"
+			"	\"title\": \"$1\","
+			"	\"link\": \"$2\","
+			"	\"description\": \"$3\","
+			"}, "
+		],
+		"description": "New Entry Object Snippet."
+	},
+
+	"New Section Object": {
+		"prefix": "ns",
+		"body": [
+			"const $1 = ["
+			"	{"
+			"		\"title\": \"$2\","
+			"		\"link\": \"$3\","
+			"		\"description\": \"$4\","
+			"	}, "
+			"]"
+		],
+		"description": "New Entry Object Snippet."
+	}
+}
