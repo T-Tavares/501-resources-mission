@@ -16,10 +16,10 @@
 		"description": "New Entry Object Snippet."
 	},
 
-	"New Section Object": {
-		"prefix": "ns",
+	"New Section Array of Objects": {
+		"prefix": "nsarr",
 		"body": [
-			"const $1 = ["
+			"$1: ["
 			"	{"
 			"		\"title\": \"$2\","
 			"		\"link\": \"$3\","
@@ -27,6 +27,20 @@
 			"	}, "
 			"]"
 		],
-		"description": "New Entry Object Snippet."
+		"description": "New Entry Array of Objects Snippet."
+	},
+
+	"New Section Object of Objects": {
+		"prefix": "nsobj",
+		"body": [
+			"$1: {"
+			"	{"
+			"		\"title\": \"$2\","
+			"		\"link\": \"$3\","
+			"		\"description\": \"$4\","
+			"	}, "
+			"}"
+		],
+		"description": "New Entry Object of Objects Snippet."
 	}
 }
