@@ -5,26 +5,42 @@
 
 /* 
     BODY OF AN LEARNING CHANNELS ENTRY
-    
-    title: String,
-    website: String,
-    links: [...Strings],
-    description: String,
-    language: [...Strings],
-    media: [...Strings]
 
+    {    
+        title: String,
+        website: String,
+        links: [...Strings],
+        description: String,
+        language: [...Strings],
+        media: [...Strings]
+    }
+    
 */
 
 /* 
     BODY OF AN RESOURCES ENTRY
-    
-    title: String,
-    link: String,
-    description: String,
-    language: String,
-    level: Number, // 0 to 5 => 5 being the hardest
-    media: String,
-    tags: [...Strings]
+
+    {    
+        title: String,
+        link: String,
+        description: String,
+        language: String,
+        level: Number, // 0 to 5 => 5 being the hardest
+        media: String,
+        tags: [...Strings]
+    }
+
+*/
+
+/* 
+    BODY OF A TOOL ENTRY
+
+    {    
+        title: String,
+        link: String,
+        description: String,
+        type: String
+    }
 
 */
 
@@ -185,6 +201,7 @@ const data = {
             framework: 'react',
             level: '3',
             media: 'video',
+            tags: ['todo app'],
         },
 
         // -------------------------- TYPESCRITP -------------------------- //
@@ -237,12 +254,53 @@ const data = {
 
     // ------------------------- ONLINE TOOLS ------------------------- //
     tools: [
+        // ----------------------------- MISC ----------------------------- //
+
         {
             title: 'Tavares - Code Comment Titles',
             link: 'https://t-tavares.github.io/Code-Comment-Titles/',
             description:
                 'Made this one myself. 🥹 It creates  dashed Titles in comment format for multiple languages. Once created the titles are automatically pasted to your clipboard',
             type: 'coding',
+        },
+
+        // ---------------------- API'S DISCOVERING ----------------------- //
+
+        {
+            title: 'Rapid API',
+            link: 'https://rapidapi.com/hub',
+            description: 'API discovering tool',
+            type: 'API',
+        },
+        {
+            title: "API's Guru",
+            link: 'https://apis.guru/',
+            description: 'API discovering tool',
+            type: 'API',
+        },
+        {
+            title: "API's IO",
+            link: 'https://apis.io/',
+            description: 'API discovering tool',
+            type: 'API',
+        },
+        {
+            title: "SDK's",
+            link: 'https://sdks.io/docs/introduction/',
+            description: 'API discovering tool',
+            type: 'API',
+        },
+        {
+            title: 'Product Hunt',
+            link: 'https://www.producthunt.com/#!/s/posts/api',
+            description: 'API discovering tool',
+            type: 'API',
+        },
+        {
+            title: "Public API's",
+            link: 'https://github.com/public-apis/public-apis',
+            description: 'API discovering tool',
+            type: 'API',
         },
     ],
 
