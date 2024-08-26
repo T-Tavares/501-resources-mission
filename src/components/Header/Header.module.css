@@ -1,0 +1,10 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    h1 {
+        font-weight: 100;
+        color: #54677c;
+    }
+}

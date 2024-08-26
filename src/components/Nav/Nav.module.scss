@@ -1,0 +1,11 @@
+.nav {
+    padding: 0.5rem;
+}
+.resource {
+    margin: 0.5rem 0 !important;
+    border-radius: 5px;
+
+    &:hover {
+        background-color: #1d2b40;
+    }
+}

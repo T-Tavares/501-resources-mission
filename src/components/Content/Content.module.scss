@@ -1,0 +1,49 @@
+.content {
+    padding: 1.5rem;
+    height: 100%;
+
+    display: grid;
+    grid-template-columns: 250px repeat(2, 1fr);
+    grid-template-rows: 50px auto 30px 1fr;
+    grid-template-areas:
+        'title title title'
+        'description description description'
+        'info info info'
+        'resource resource resource';
+
+    .title {
+        grid-area: title;
+        font-size: 1.8rem;
+        font-weight: 500;
+        color: #fff;
+        text-align: center;
+    }
+    .description {
+        padding: 0.5rem 0;
+        grid-area: description;
+        font-size: 1.1rem;
+        text-align: justify;
+
+        p {
+            margin-bottom: 0.5rem;
+        }
+    }
+    .info {
+        grid-area: info;
+        font-size: 16px;
+        color: #999;
+        padding: 1rem;
+        background-color: #141d24;
+        border-radius: 5px;
+        min-height: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .resource {
+        grid-area: resource;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
