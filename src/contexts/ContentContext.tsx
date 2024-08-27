@@ -18,7 +18,7 @@ export const ContentProvider: React.FC<{children: React.ReactNode}> = ({children
 
     // Initial Data - Helper to explain the user how to use the website
     const initWelcomingResourceData = {
-        title: 'Thiago Tavares - Useful Resources',
+        title: 'Thiago Tavares',
         website: 'https://t-tavares.github.io/portfolio/',
         description: `I have compiled a list of resources that I have found useful in my journey as a developer. If you own any of these resources and would like me to remove them, please let me know and I'll do straight away.
 

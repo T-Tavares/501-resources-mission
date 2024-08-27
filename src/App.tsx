@@ -1,15 +1,16 @@
 import ss from './App.module.scss';
-
 import Header from './components/Header/Header';
 import Nav from './components/Nav/Nav';
 import Content from './components/Content/Content';
 import Footer from './components/Footer/Footer';
-
-import data from './assets/resources';
+import Socials from './components/Socials/Socials';
 
 export default function App() {
     return (
         <div className={ss.appGrid}>
+            <div className={ss.socials}>
+                <Socials />
+            </div>
             <div className={ss.header}>
                 <Header />
             </div>

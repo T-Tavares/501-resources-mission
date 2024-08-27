@@ -1,0 +1,57 @@
+.website,
+.link,
+.links {
+    padding: 1.5rem 2rem;
+    background: linear-gradient(140deg, #09314a 0%, #01080e 100%);
+    border-radius: 10px;
+    margin: 1rem 0;
+    width: 90%;
+
+    text-align: center;
+    border: 1px solid #111;
+
+    div {
+        margin: 1rem 0;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+
+        a {
+            color: #bbb;
+            font-size: 1.2rem;
+            font-weight: 100;
+
+            transition: color 300ms ease-in-out;
+            &:hover {
+                color: #fff;
+            }
+        }
+    }
+
+    h1 {
+        font-size: 1.5rem;
+        letter-spacing: 3px;
+        font-weight: 100;
+        color: #bbb;
+    }
+}
+.website {
+    cursor: pointer;
+    transition: border 300ms ease-in-out;
+    &:hover {
+        border: 1px solid #ffffff30;
+    }
+}
+.link {
+    padding: 5px;
+    iframe {
+        aspect-ratio: 16 / 9;
+        width: 100%;
+        max-height: 600px;
+        border: none;
+        border-radius: 10px;
+    }
+}
+
+.links {
+}

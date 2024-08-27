@@ -3,8 +3,8 @@
     height: 100%;
 
     display: grid;
-    grid-template-columns: 250px repeat(2, 1fr);
-    grid-template-rows: 50px auto 30px 1fr;
+    grid-template-columns: (250px) repeat(2, 1fr);
+    grid-template-rows: minmax(50px, auto) auto minmax(30px, auto) 1fr;
     grid-template-areas:
         'title title title'
         'description description description'
@@ -14,8 +14,8 @@
     .title {
         grid-area: title;
         font-size: 1.8rem;
-        font-weight: 500;
-        color: #fff;
+        font-weight: 100;
+        color: #8095ab;
         text-align: center;
     }
     .description {
@@ -25,7 +25,9 @@
         text-align: justify;
 
         p {
+            font-weight: 200;
             margin-bottom: 0.5rem;
+            color: #536775;
         }
     }
     .info {
@@ -36,7 +38,14 @@
         background-color: #141d24;
         border-radius: 5px;
         min-height: 3rem;
+        max-height: max-content;
+        font-size: 1.2rem;
+        font-weight: 200;
+        letter-spacing: 2px;
+
         display: flex;
+        gap: 1rem 2rem;
+        flex-wrap: wrap;
         align-items: center;
         justify-content: center;
     }
@@ -45,5 +54,6 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        flex-direction: column;
     }
 }

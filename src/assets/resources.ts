@@ -124,7 +124,7 @@ export const data: DatabaseInterface = {
 
         {
             title: 'Kevin Powell - CSS Battles',
-            link: 'https://www.youtube.com/watch?v=20QiX8rmHnU&list=PL4-IK0AVhVjMkIofGCMt3Jv_wrxsZY4kA',
+            link: 'https://www.youtube.com/embed/20QiX8rmHnU?si=zbwmuTqKu9tNPGde',
             description: 'Series of CSS challenges and battles.',
             language: 'css',
             level: 'advanced',
@@ -157,7 +157,7 @@ export const data: DatabaseInterface = {
 
         {
             title: 'Up and Running with JavaScript: Free JavaScript Mini-Course',
-            link: 'https://www.youtube.com/watch?v=bSx9wDk1zko&list=PLvtRgUbhWmy8MCUNDT2hiI0jpGgjTfSLE',
+            link: 'https://www.youtube.com/embed/bSx9wDk1zko?si=LVDAQt2c0O3dq75l',
             description: 'Short Javascript course, this guy is reaaally good!',
             language: 'javascript',
             level: 'intermediate',
@@ -180,7 +180,7 @@ export const data: DatabaseInterface = {
 
         {
             title: 'Learn React With This One Project',
-            link: 'https://www.youtube.com/watch?v=Rh3tobg7hEo',
+            link: 'https://www.youtube.com/embed/Rh3tobg7hEo?si=bHzLk9rH_oDNIaTJ',
             description:
                 'Learning React is hard. There are so many concepts to learn and mindsets shifts that you need to do. That is why in this video I will be breaking down all the most important concepts you need to understand in React.',
             language: 'javascript',
@@ -195,7 +195,7 @@ export const data: DatabaseInterface = {
 
         {
             title: 'TypeScript with Matt Pocock - The Complete Guide',
-            link: 'https://www.youtube.com/watch?v=qcFmCKQDa2s',
+            link: 'https://www.youtube.com/embed/qcFmCKQDa2s?si=PVixFOLlRN7FgdjL',
             description:
                 'In this session, Matt Pocock, who was named the "The Rodney Mullen of TypeScript"  by Wes Bos, taught me TypeScript from Scratch.',
             language: 'typescript',
@@ -205,7 +205,7 @@ export const data: DatabaseInterface = {
         },
         {
             title: 'TypeScript Tutorial for Beginners',
-            link: 'https://www.youtube.com/watch?v=d56mG7DezGs',
+            link: 'https://www.youtube.com/embed/d56mG7DezGs?si=I1Wfb970bHjIOp5W',
             description: 'Introduction to Typescript.',
             language: 'typescript',
             level: 'beginner',
@@ -214,7 +214,7 @@ export const data: DatabaseInterface = {
         },
         {
             title: 'Learn TypeScript Generics In 13 Minutes',
-            link: 'https://www.youtube.com/watch?v=EcCTIExsqmI',
+            link: 'https://www.youtube.com/embed/EcCTIExsqmI?si=NZ4eV_kpPlzpPP6e',
             description:
                 'By far one of the hardest TypeScript concepts to understand when first learning TypeScript is generics. They introduce new syntax, new logic, and a new way of thinking all at the same time which is tough to comprehend. In this video I will be breaking down everything you need to know about generics (including advanced generic features).',
             language: 'typescript',
@@ -224,7 +224,7 @@ export const data: DatabaseInterface = {
         },
         {
             title: `Advanced TypeScript: Let's Learn Generics!`,
-            link: 'https://www.youtube.com/watch?v=xk_PbxR7G8A',
+            link: 'https://www.youtube.com/embed/xk_PbxR7G8A?si=M0YXeonnptzgRPrN',
             description:
                 "If you've never used typescript generics, it can be pretty intimidating. In this episode, Matt Pocock will teach us this advanced TypeScript concept.",
             language: 'typescript',
@@ -238,7 +238,7 @@ export const data: DatabaseInterface = {
 
         {
             title: 'Blazing Fast Tips: React & TypeScript',
-            link: 'https://www.youtube.com/watch?v=37PafxU_uzQ',
+            link: 'https://www.youtube.com/embed/37PafxU_uzQ?si=NekxN_68x1P2xJ08',
             description:
                 "React and TypeScript are a match made in heaven. Here's a BLAZING FAST tips bonanza to help you get the most out of them.",
             language: 'typescript',
@@ -287,7 +287,7 @@ export const data: DatabaseInterface = {
         // ---------------------------- DOCKER ---------------------------- //
         {
             title: 'Docker Crash Course for Absolute Beginners 2023',
-            link: 'https://www.youtube.com/watch?v=pg19Z8LL06w&t=5s',
+            link: 'https://www.youtube.com/embed/pg19Z8LL06w?si=J9u-q1Rsx5fz5koM',
             description: 'Understand Docker, why it was created and why use it. Also the steps of doing it.',
             language: 'javascript',
             framework: 'react',
@@ -356,7 +356,7 @@ export const data: DatabaseInterface = {
     generalDiscussions: [
         {
             title: 'Healthy Software Developer',
-            link: 'https://www.youtube.com/@HealthyDev',
+            link: 'https://www.youtube.com/embed/oJbfMBROEO0?si=CNHHXIUNdfXfNlTx',
             description: 'Good and healthy discussions on what lays beyond our daily tasks and keyboards',
             media: 'video',
             topic: 'health',

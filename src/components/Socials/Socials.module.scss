@@ -1,0 +1,43 @@
+.socials {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    a {
+        color: #778b94;
+        font-size: 1.5rem;
+        border: 1px solid transparent;
+        padding: 1rem;
+        line-height: 0;
+        aspect-ratio: 1 / 1;
+        border-radius: 50%;
+
+        &:hover {
+            animation: blinking 10s infinite, bg 1s forwards;
+        }
+    }
+}
+@keyframes bg {
+    0% {
+        background-color: transparent;
+    }
+    100% {
+        background-color: #141a20;
+    }
+}
+@keyframes blinking {
+    0% {
+        border: 1px solid transparent;
+        color: #778b94;
+        background-color: #1a1f20;
+    }
+    50% {
+        border: 1px solid #778b9456;
+        color: #9ec5d7;
+        background-color: #1a1f20;
+    }
+    100% {
+        border: 1px solid transparent;
+        color: #778b94;
+        background-color: #1a1f20;
+    }
+}

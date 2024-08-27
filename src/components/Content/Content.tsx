@@ -1,8 +1,8 @@
 import ss from './Content.module.scss';
 import {useContent} from '../../contexts/ContentContext';
-import Description from './subComponents/Description/Description';
-import Info from './subComponents/Info/Info';
-
+import Description from './subComponents/Description';
+import Info from './subComponents/Info';
+import Resource from './subComponents/Resource/Resource';
 export interface InfoProps {
     language?: string;
     framework?: string;
@@ -14,6 +14,13 @@ export interface InfoProps {
     topic?: string;
 }
 
+export interface ResourceProps {
+    link?: string;
+    links?: string[];
+    website?: string;
+    title?: string;
+}
+
 export default function Content() {
     const {resource} = useContent();
     // Destructuring all the properties from the resource object
@@ -23,13 +30,13 @@ export default function Content() {
     const infoDataObj: InfoProps = {language, framework, level, intro, media, tags, type, topic};
 
     // Grouping all the links and sources into an object
-
+    const resourceDataObj = {link, links, website, title};
     return (
         <div className={ss.content}>
             <div className={ss.title}>{title}</div>
             <Description description={description} />
             <Info {...infoDataObj} />
-            <div className={ss.resource}>{website}</div>
+            <Resource {...resourceDataObj} />
         </div>
     );
 }

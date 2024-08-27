@@ -1,4 +1,4 @@
-import ss from '../../Content.module.scss';
+import ss from '../Content.module.scss';
 
 const Description: React.FC<{description: string}> = description => {
     const paragraphs = description.description.split('\n');

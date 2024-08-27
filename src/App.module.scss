@@ -4,11 +4,21 @@
     grid-template-rows: 80px 1fr 40px;
     grid-template-columns: minmax(300px, 20vw) 1fr;
     grid-template-areas:
-        'header header'
+        'socials header'
         'nav content'
-        'footer footer';
+        ' . footer';
 }
-
+.socials {
+    grid-area: socials;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 100;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-variant: small-caps;
+    color: #355c83;
+}
 .header {
     grid-area: header;
 }
@@ -29,7 +39,6 @@
 }
 
 .content {
-    border: 2px solid darkcyan;
     grid-area: content;
 }
 .footer {
