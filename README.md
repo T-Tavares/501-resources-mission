@@ -1,7 +1,7 @@
-# Introduction - Mission Resources
+# Mission Resources
 
-This Repo is where I am documenting any resource that makes a difference on my journey as a developer. At this point is just a JS file as a Database where I drop links and info every time I stumble on a channel, video, article, that makes an impact on my learnings.
+This repository started as a compilation of resources that I discovered during my learning journey and found valuable. However, as the list continued to grow, I decided to enhance it by giving it a visually appealing web "skin" and incorporating additional notes, such as difficulty level and topic.
 
-I've started this repo along with my studies on Mission Ready. And will slowly turn it into a website for easy access and filtering of all the links and channels.
+Essentially, it is a simple list featuring websites, videos, channels, and links that I personally enjoy. I hope that others can also find value in these resources.
 
-If you're on the list and do not wish to. Please contact me and I'll remove it straight away.
+If you are the owner of any of the content listed here and do not wish to be included, please contact me, and I will promptly remove it.
