@@ -1,4 +1,3 @@
-import ss from '../Nav.module.scss';
 import {TreeItem} from '@mui/x-tree-view';
 import Resource from './Resource';
 import type {DataSubInterface} from '../../../assets/resources';

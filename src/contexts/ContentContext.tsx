@@ -1,11 +1,11 @@
-import {createContext, useContext, useEffect, useState} from 'react';
+import {createContext, useContext, useState} from 'react';
 import data from '../assets/resources';
 import {Resource, DatabaseInterface} from '../assets/resources';
 
 const ContentContext = createContext({
     database: {} as DatabaseInterface,
     resource: {} as Resource,
-    setResourceHandler: (resource: Resource) => {
+    setResourceHandler: (_resource: Resource) => {
         /* placeholder */
     },
 });

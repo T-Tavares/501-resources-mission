@@ -2,7 +2,8 @@ import ss from '../Content.module.scss';
 import type {InfoProps} from '../Content';
 import {stringToCamelCase} from '../../../helpers/stringHelpers';
 
-const Info: React.FC<InfoProps> = ({language, framework, level, intro, media, tags, type, topic}) => {
+// const Info: React.FC<InfoProps> = ({language, framework, level, intro, media, tags, type, topic}) => {
+const Info: React.FC<InfoProps> = ({language, framework, level, intro}) => {
     const hasInfo = [language, framework, level, intro].some(info => info);
     // prettier-ignore
     return (
