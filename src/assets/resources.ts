@@ -115,6 +115,26 @@ export const data: DatabaseInterface = {
                 'Become a TypeScript wizard with tips, tricks and tutorials. Plus, updates from the latest TypeScript releases (and other open source awesomeness).',
             media: 'video',
         },
+        {
+            title: 'Network Chuck',
+            website: 'https://networkchuck.com/',
+            links: ['https://www.youtube.com/@NetworkChuck'],
+            description: `I LOVE Information Technology!! My goal is to help as MANY PEOPLE AS POSSIBLE jump into a career in the IT field through obtaining IT Certifications. I talk about Cisco Certifications, CompTIA, AWS, Microsoft...pretty much EVERYTHING in IT. As a CBT Nuggets Trainer, it's also my passion to TEACH information technology and to make it FUN. If your goals are to obtain your CCNA, CompTIA A+, CompTIA Network+...I'm here to help you with that goal in any way I can!`,
+            media: 'video',
+        },
+        {
+            title: 'Theo - t3.gg',
+            website: 'https://t3.gg/',
+            links: ['https://www.youtube.com/@t3dotgg', 'https://www.youtube.com/@theorants', 'https://www.youtube.com/@theothrowaways'],
+            description: `Hi, I'm a software dev nerd mostly known for full stack TypeScript stuff. Check out me and my stack at t3.gg`,
+            media: 'video',
+        },
+        {
+            title: 'Codewithguillaume',
+            links: ['https://www.youtube.com/@codewithguillaume'],
+            description: 'A lot of good content on NextJS but some other webdev topics as well.',
+            media: 'video',
+        },
     ],
 
     // -------------------------- RESOURCES --------------------------- //
@@ -188,6 +208,19 @@ export const data: DatabaseInterface = {
             level: 'intermediate',
             media: 'video',
             tags: ['todo app'],
+            subsection: 'React',
+        },
+
+        {
+            title: 'React Three Fiber (R3F) - The Basics',
+            link: 'https://www.youtube.com/embed/vTfMjI4rVSI?si=W4-Zt9ib_vS9RFKE',
+            description:
+                'In this video we will be exploring the world of 3D development using the React Three Fiber (R3F) library, which is built on top of ThreeJS.',
+            language: 'javascript',
+            framework: 'react',
+            level: 'advanced',
+            media: 'video',
+            tags: ['3D', 'ThreeJS, React Three Fiber'],
             subsection: 'React',
         },
 
@@ -269,6 +302,32 @@ export const data: DatabaseInterface = {
             tags: ['typescript error', 'error'],
             subsection: 'React Typescript',
         },
+        // -------------------------- TYPESCRITP -------------------------- //
+        // ---------------------------- REACT ----------------------------- //
+        // --------------------------- NEXT JS ---------------------------- //
+
+        {
+            title: 'From 0 to Production - The Modern React Tutorial (RSCs, Next.js, Shadui, Drizzle, TS and more)',
+            link: 'https://www.youtube.com/embed/d5x0JCZbAJs?si=8Cp4QffZTTY_gR7D',
+            description: 'A complete guide to building a modern React app from scratch with modern tools and T3 Stack.',
+            language: 'typescript',
+            framework: 'react',
+            level: 'advanced',
+            media: 'video',
+            tags: ['react', 'next.js', 'NextJS', 'typescript', 'shadui', 'drizzle'],
+            subsection: 'React Typescript',
+        },
+        {
+            title: 'API Routes with Next.js 14',
+            link: 'https://www.youtube.com/embed/gEB3ckYeZF4?si=Eb21xpxJQHo2es98',
+            description: 'In this video, we will be exploring the new API Routes feature in Next.js 14.',
+            language: 'typescript',
+            framework: 'react',
+            level: 'intermediate',
+            media: 'video',
+            tags: ['next.js', 'NextJS', 'API Routes', 'Next.js Routes'],
+            subsection: 'React Typescript',
+        },
 
         // ---------------------------- GITHUB ---------------------------- //
 
@@ -296,6 +355,19 @@ export const data: DatabaseInterface = {
             tags: ['docker'],
             subsection: 'Docker',
         },
+
+        // -------------------------- SCRIPTING -------------------------- //
+        {
+            title: 'you need to learn BASH Scripting RIGHT NOW!! // EP 1',
+            link: 'https://www.youtube.com/embed/SPwyp2NG-bE?si=OLvdxIVHTz1G7DNc',
+            description:
+                'In this video, NetworkChuck starts you on your journey to becoming a better nerd by introducing you to the super powerful BASH scripting language!',
+            language: 'bash',
+            level: 'beginner',
+            media: 'video',
+            tags: ['bash'],
+            subsection: 'Scripting',
+        },
     ],
 
     // ------------------------- ONLINE TOOLS ------------------------- //
@@ -309,6 +381,13 @@ export const data: DatabaseInterface = {
             description:
                 'Made this one myself. 🥹 It creates  dashed Titles in comment format for multiple languages. Once created the titles are automatically pasted to your clipboard',
             type: 'coding',
+        },
+        {
+            title: 'Yabai Ultimate Guide (MacOS)',
+            link: 'https://www.youtube.com/embed/k94qImbFKWE?si=VaYJ7WvQFmLgECpQ',
+            description:
+                'In this video, I share everything you need to know to setup and use the Yabai tiling window manager on macOS. Tiling window managers are really popular on Linux environments, but with apps like Yabai and Amethyst, you can bring this functionality to macOS as well. This video is meant to be a complete guide on using and setting this up so that you can get started quickly and add this tool to your workflow to level up your window management! Hope you enjoy the video!',
+            type: 'OS',
         },
 
         // ---------------------- API'S DISCOVERING ----------------------- //
@@ -348,6 +427,12 @@ export const data: DatabaseInterface = {
             link: 'https://github.com/public-apis/public-apis',
             description: 'API discovering tool',
             type: 'API',
+        },
+        {
+            title: 'VSCode IDE Advanced Custom Snippets',
+            link: 'https://www.youtube.com/embed/_tTxjaORmTg?si=RefBZCP2rxowijxs',
+            description: 'How to create advanced custom snippets in VSCode',
+            type: 'coding',
         },
     ],
 
